@@ -1,0 +1,2170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>pngjewellers.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .owl-nav button > span {
+        font-size: 36px;
+      }
+      .owl-nav button {
+        width: 25px;
+      }
+      .cover1Div img {
+        transition: all 0.8s ease;
+      }
+      .cover2 img {
+        transition: all 0.8s ease;
+      }
+
+      .cover1Div img:hover {
+        transform: scale(1.04);
+        border: 2px solid gold;
+      }
+
+      .cover2 img:hover {
+        transform: scale(1.04);
+        border: 2px solid gold;
+      }
+
+      @media screen and (min-width: 1000px) {
+        .logo {
+          width: 25vw !important;
+        }
+
+        .bottomNav {
+          margin-left: 155px;
+          position: absolute;
+          top: 130px;
+        }
+
+        .craftSection {
+          position: relative;
+        }
+
+        .crafted video {
+          width: 70%;
+        }
+
+        .label p {
+          font-size: 80px !important;
+        }
+
+        .label {
+          position: absolute;
+          top: 200px;
+          bottom: 50px;
+          right: 100px;
+        }
+
+        .P2 {
+          color: white;
+        }
+
+        .customize {
+          position: relative;
+        }
+
+        .headingCust {
+          position: absolute;
+          top: 270px;
+          left: 135px;
+        }
+
+        .headingCustPara {
+          font-size: 50px !important;
+        }
+
+        .aboutDiv {
+          padding: 0 150px !important;
+        }
+
+        .store {
+          padding: 0 100px !important;
+        }
+      }
+
+      @media screen and (min-width: 300px) and (max-width: 995px) {
+        .cover2 {
+          height: 300px;
+        }
+
+        .cover1 {
+          height: 299px;
+          width: 439px;
+        }
+        .cover1Div {
+          height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="shadow-sm bg-body rounded">
+      <div
+        class="top-header d-none d-lg-flex justify-content-between"
+        style="background-color: #4d2753"
+      >
+        <ul class="nav">
+          <li class="nav-item py-2 d-flex">
+            <figure class="mb-0">
+              <svg
+                class="m-auto ms-2 mt-1"
+                style="filter: invert(1)"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="currentColor"
+              >
+                <path
+                  d="M7.52459 0C3.40454 0 0.0515467 3.34579 0.0503194 7.45822C0.0503194 8.76862 0.395191 10.057 1.04812 11.1873L1.05425 11.1984L1.05057 11.2106L0 15.0401L3.93964 14.009L3.95068 14.0151C5.04176 14.6091 6.27642 14.9226 7.52336 14.9226C11.6459 14.9226 15.0001 11.5768 15.0013 7.46312C15.0025 5.47059 14.2257 3.59562 12.8143 2.18603C11.4016 0.777664 9.52386 0.00122467 7.52459 0ZM7.52459 13.7199H7.52213C6.3967 13.7199 5.29335 13.4175 4.33115 12.848L4.11392 12.7194L1.71331 13.3476L2.35396 11.0122L2.21283 10.7881C1.58567 9.79244 1.2543 8.64125 1.2543 7.45945C1.25553 4.01078 4.06851 1.20385 7.52581 1.20385C9.19985 1.20385 10.7745 1.85537 11.9576 3.0384C13.1407 4.2202 13.7924 5.79268 13.7924 7.46435C13.7924 10.913 10.9807 13.7199 7.52459 13.7199Z"
+                ></path>
+                <path
+                  d="M4.86762 4.03027C4.78539 4.03027 4.57552 4.05232 4.3902 4.2544L4.35338 4.29359C4.15456 4.50548 3.74219 4.94516 3.74219 5.79391C3.74219 6.61204 4.27238 7.40568 4.50066 7.70942C4.50802 7.71922 4.5203 7.73514 4.53625 7.75841C5.06154 8.5104 6.17101 9.8711 7.69409 10.5276C8.11997 10.7113 8.4587 10.8252 8.76062 10.9207C9.23558 11.0714 9.65409 11.0346 9.92778 10.9942C10.2727 10.9428 11.0176 10.5496 11.1698 10.1246C11.322 9.69841 11.3232 9.33099 11.2815 9.26118C11.2484 9.20606 11.1649 9.16564 11.0373 9.10441C11.0054 9.08849 10.971 9.07256 10.9342 9.05419C10.7488 8.96111 9.82469 8.50796 9.65532 8.44672C9.49086 8.3867 9.38286 8.35854 9.26995 8.52878C9.13863 8.72596 8.76676 9.16075 8.67348 9.26607C8.55198 9.40447 8.42802 9.41917 8.23042 9.31996C8.19974 9.30527 8.15924 9.2869 8.10769 9.26485C7.85119 9.1534 7.31854 8.92314 6.71594 8.3867C6.1747 7.90415 5.8016 7.31382 5.66659 7.08235C5.54386 6.87169 5.66537 6.75167 5.75373 6.66348C5.80896 6.60837 5.87401 6.52999 5.9366 6.45283C5.96851 6.41363 6.00165 6.37444 6.03356 6.3377C6.11088 6.24829 6.14401 6.17971 6.19065 6.0854L6.21765 6.03151C6.27779 5.91149 6.24097 5.80861 6.2017 5.73145C6.16979 5.66776 5.99674 5.24645 5.8286 4.83983C5.74882 4.64632 5.67396 4.46261 5.62241 4.33891C5.50091 4.04864 5.38677 4.03762 5.2849 4.03762C5.27509 4.03762 5.26649 4.03762 5.2579 4.03762C5.24809 4.03762 5.23704 4.03762 5.22722 4.03762C5.10817 4.0315 4.97317 4.03027 4.86762 4.03027Z"
+                ></path>
+              </svg>
+            </figure>
+            <a
+              class="nav-link text-light border-end border-secondary px-2"
+              style="font-size: 12px"
+              aria-current="page"
+              href="#"
+              >Whatsapp</a
+            >
+          </li>
+          <li class="nav-item py-2 d-flex">
+            <figure class="mb-0">
+              <svg
+                width="19"
+                class="m-auto ms-2 mt-1"
+                style="filter: invert(1)"
+                height="15"
+                viewBox="0 0 19 15"
+                fill="currentColor"
+              >
+                <path
+                  d="M10.6813 12.0556C10.567 12.0556 10.4527 12.027 10.3669 11.9413C10.1954 11.7698 10.1954 11.5125 10.3669 11.341L13.7111 7.99679C13.8826 7.82529 14.1399 7.82529 14.3114 7.99679C14.4829 8.16829 14.4829 8.42554 14.3114 8.59704L10.9672 11.9413C10.91 12.027 10.7957 12.0556 10.6813 12.0556Z"
+                ></path>
+                <path
+                  d="M12.9704 12.14C12.856 12.14 12.7417 12.1114 12.656 12.0257C12.4845 11.8542 12.4845 11.5969 12.656 11.4254L14.028 10.0534C14.1995 9.88193 14.4567 9.88193 14.6282 10.0534C14.7997 10.2249 14.7997 10.4822 14.6282 10.6537L13.2562 12.0257C13.1705 12.0828 13.0561 12.14 12.9704 12.14Z"
+                ></path>
+                <path
+                  d="M18.7715 4.02314L17.7711 1.79365H17.8854C18.1713 1.79365 18.3999 1.56498 18.3999 1.27915C18.3999 0.993314 18.1713 0.764648 17.8854 0.764648H1.10705C0.821222 0.764648 0.592559 0.993314 0.592559 1.27915C0.592559 1.56498 0.821222 1.79365 1.10705 1.79365H1.27856L0.249557 4.02314C-0.379275 5.30939 0.220977 6.36697 1.59297 6.36697C2.39331 6.36697 3.22222 5.99539 3.85105 5.42372C4.13688 5.99539 4.76571 6.36697 5.56605 6.36697C6.36638 6.36697 7.13813 5.99539 7.65263 5.42372C8.05279 5.99539 8.73879 6.36697 9.53912 6.36697C10.3394 6.36697 11.0254 5.99539 11.4256 5.42372C11.9115 5.99539 12.6833 6.36697 13.4836 6.36697C14.2839 6.36697 14.9128 5.99539 15.1986 5.4523C15.7989 6.02397 16.5992 6.36697 17.4281 6.36697C18.7429 6.36697 19.3718 5.30939 18.7715 4.02314ZM3.73672 4.02314C3.50805 4.79489 2.67914 5.42372 1.93597 5.42372C1.19281 5.42372 0.821225 4.79489 1.16422 4.02314L2.10747 1.79365H4.42272L3.73672 4.02314ZM7.28104 4.02314C7.19529 4.79489 6.48071 5.42372 5.70896 5.42372C4.93721 5.42372 4.47988 4.79489 4.67996 4.02314L5.22305 1.79365H7.53829L7.28104 4.02314ZM9.51054 5.42372C8.73879 5.42372 8.16712 4.79489 8.22429 4.02314L8.36721 1.79365H10.6824L10.7968 4.02314C10.854 4.79489 10.2823 5.42372 9.51054 5.42372ZM13.2835 5.42372C12.5118 5.42372 11.8258 4.79489 11.74 4.02314L11.5114 1.79365H13.8266L14.3411 4.02314C14.5126 4.79489 14.0553 5.42372 13.2835 5.42372ZM17.0565 5.42372C16.2848 5.42372 15.4844 4.79489 15.2558 4.02314L14.6555 1.79365H16.9708L17.8569 4.02314C18.1713 4.79489 17.7997 5.42372 17.0565 5.42372Z"
+                ></path>
+                <path
+                  d="M16.1121 13.9992H7.53715V6.65332C7.22274 6.8534 6.87974 6.99632 6.53674 7.08207V13.9992H2.90666V6.99632C2.59225 7.11065 2.24925 7.16782 1.90625 7.1964V14.9996H17.1411V7.1964C16.7981 7.16782 16.4551 7.08207 16.1407 6.96774V13.9992H16.1121Z"
+                ></path>
+              </svg>
+            </figure>
+            <a
+              class="nav-link text-light border-end border-secondary px-2"
+              style="font-size: 12px"
+              href="#"
+              >Store Locator</a
+            >
+          </li>
+          <li class="nav-item py-2 d-flex">
+            <figure class="mb-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="m-auto ms-2 mt-1"
+                width="19"
+                height="17"
+                viewBox="0 0 19 17"
+                fill="none"
+              >
+                <path
+                  d="M9.2084 16.0535C9.33251 16.0535 9.45965 16.0256 9.58985 15.9698C9.72004 15.914 9.82528 15.846 9.90557 15.766L17.3045 8.38713C17.543 8.1493 17.727 7.90601 17.8566 7.65727C17.9862 7.40852 18.051 7.1355 18.051 6.83822C18.051 6.53729 17.9862 6.24515 17.8566 5.96181C17.727 5.67849 17.543 5.41973 17.3045 5.18555L13.7456 1.6363C13.5107 1.39847 13.2695 1.22403 13.0219 1.113C12.7743 1.00198 12.4996 0.946466 12.1979 0.946466C11.8998 0.946466 11.623 1.00198 11.3675 1.113C11.112 1.22403 10.8711 1.39847 10.6447 1.6363L9.81798 2.46081L11.5737 4.21722C11.7623 4.40167 11.9029 4.61159 11.9953 4.847C12.0878 5.0824 12.134 5.32144 12.134 5.56413C12.134 6.05677 11.9725 6.46417 11.6495 6.78633C11.3264 7.10851 10.9179 7.26959 10.4239 7.26959C10.1806 7.26959 9.943 7.23258 9.71121 7.15855C9.47942 7.08454 9.27106 6.95531 9.08612 6.77088L7.27016 4.9653L3.17282 9.05148C3.0767 9.14734 3.00461 9.25625 2.95656 9.3782C2.90849 9.50015 2.88445 9.62301 2.88445 9.74678C2.88445 9.97005 2.95624 10.1542 3.09982 10.2992C3.24339 10.4442 3.42712 10.5167 3.651 10.5167C3.7751 10.5167 3.90225 10.4888 4.03244 10.433C4.16264 10.3771 4.26789 10.3092 4.34819 10.2291L7.35593 7.22953L8.02758 7.89935L5.02529 10.8989C4.92917 10.9948 4.85708 11.1037 4.80902 11.2256C4.76096 11.3476 4.73692 11.4704 4.73692 11.5942C4.73692 11.8053 4.81175 11.9855 4.96142 12.1348C5.11107 12.284 5.29175 12.3586 5.50347 12.3586C5.62757 12.3586 5.75472 12.3307 5.88491 12.2749C6.01511 12.2191 6.12036 12.1512 6.20066 12.0711L9.42742 8.85855L10.099 9.52836L6.87776 12.7463C6.79381 12.8264 6.72476 12.9314 6.6706 13.0612C6.61646 13.1911 6.58939 13.3179 6.58939 13.4416C6.58939 13.6528 6.66422 13.833 6.81389 13.9822C6.96354 14.1315 7.14422 14.2061 7.35593 14.2061C7.48004 14.2061 7.60323 14.1821 7.72552 14.1342C7.8478 14.0863 7.95701 14.0144 8.05313 13.9185L11.2799 10.706L11.9515 11.3758L8.72474 14.5938C8.62862 14.6896 8.55653 14.8046 8.50848 14.9387C8.46043 15.0728 8.4364 15.1956 8.4364 15.3073C8.4364 15.5305 8.51518 15.7107 8.67274 15.8478C8.83031 15.985 9.00887 16.0535 9.2084 16.0535ZM9.20292 17C8.71502 17 8.29737 16.8219 7.94999 16.4658C7.60262 16.1097 7.45023 15.6701 7.49281 15.1471C6.95502 15.1532 6.50727 14.993 6.14955 14.6666C5.79183 14.3402 5.62209 13.8845 5.64034 13.2997C5.05388 13.3057 4.59183 13.1386 4.25419 12.7982C3.91655 12.4579 3.76294 12.0092 3.79336 11.4522C3.26529 11.4583 2.82362 11.3103 2.46834 11.0081C2.11305 10.706 1.93541 10.2855 1.93541 9.74678C1.93541 9.50409 1.98256 9.2611 2.07686 9.01781C2.17115 8.77452 2.31077 8.56066 2.49572 8.37623L7.27016 3.62021L9.72124 6.06465C9.80155 6.14838 9.90072 6.21724 10.0187 6.27124C10.1368 6.32523 10.27 6.35223 10.4184 6.35223C10.6216 6.35223 10.8011 6.28155 10.9568 6.1402C11.1126 5.99883 11.1904 5.81469 11.1904 5.58779C11.1904 5.43975 11.1634 5.30688 11.1092 5.18917C11.0551 5.07147 10.986 4.97258 10.9021 4.8925L7.63699 1.6363C7.40217 1.39847 7.15792 1.22403 6.90424 1.113C6.65054 1.00198 6.37282 0.946466 6.07107 0.946466C5.77297 0.946466 5.50225 1.00198 5.2589 1.113C5.01556 1.22403 4.77465 1.39847 4.53617 1.6363L1.64706 4.52302C1.44386 4.72566 1.27959 4.96713 1.15427 5.24742C1.02895 5.52772 0.962642 5.81712 0.95535 6.11562C0.948043 6.32919 0.966288 6.53456 1.01009 6.73174C1.0539 6.92892 1.12326 7.11427 1.21816 7.28779L0.499072 8.00493C0.33968 7.75132 0.21496 7.45919 0.124911 7.12852C0.0348779 6.79786 -0.00648475 6.46022 0.000822912 6.11562C0.00811475 5.68606 0.0945017 5.27441 0.259984 4.88067C0.42545 4.4869 0.662103 4.13653 0.969942 3.82954L3.84081 0.966484C4.17176 0.640064 4.52187 0.397374 4.89114 0.238415C5.26043 0.0794713 5.65982 0 6.08931 0C6.51882 0 6.91517 0.0794713 7.27837 0.238415C7.64156 0.397374 7.98681 0.640064 8.31412 0.966484L9.14088 1.791L9.96764 0.966484C10.2986 0.640064 10.6457 0.397374 11.0088 0.238415C11.372 0.0794713 11.7684 0 12.1979 0C12.6274 0 13.0268 0.0794713 13.3961 0.238415C13.7653 0.397374 14.1136 0.640064 14.4409 0.966484L17.9761 4.49207C18.3034 4.81848 18.5559 5.18492 18.7336 5.59142C18.9112 5.99792 19 6.41534 19 6.84368C19 7.27201 18.9112 7.66728 18.7336 8.02949C18.5559 8.3917 18.3034 8.73601 17.9761 9.06241L10.5772 16.4357C10.3801 16.6323 10.1657 16.7755 9.93388 16.8653C9.70209 16.9551 9.45844 17 9.20292 17Z"
+                  fill="#E5D1FB"
+                ></path>
+              </svg>
+            </figure>
+            <a class="nav-link text-light px-2" style="font-size: 12px" href="#"
+              >PNG Franchise</a
+            >
+          </li>
+        </ul>
+
+        <div
+          class="ctrHead d-flex align-items-center fw-bold me-5"
+          style="color: gold"
+        >
+          LEGACY SINCE 1832
+        </div>
+
+        <div class="goldrate pe-5 py-2">
+          <div class="dropdown">
+            <svg
+              style="filter: invert(1)"
+              width="20"
+              height="14"
+              viewBox="0 0 20 14"
+              fill="currentColor"
+            >
+              <path
+                d="M19.9397 12.248L18.5194 7.39203C18.3579 6.84282 17.9051 6.47377 17.3942 6.47377H14.7098C14.754 6.2439 14.7464 6.00284 14.6796 5.77296L13.2579 0.918257C13.0965 0.369042 12.6436 0 12.1327 0H7.86279C7.35065 0 6.89906 0.369042 6.73886 0.917014L5.31848 5.77296C5.25163 6.00284 5.24406 6.2439 5.28821 6.47377H2.60641C2.093 6.47377 1.64141 6.84282 1.48121 7.39079L0.0595742 12.248C-0.0615232 12.663 0.00407122 13.119 0.237436 13.4682C0.463232 13.8062 0.807603 14 1.18351 14H8.2942C8.66885 14 9.01448 13.8062 9.24406 13.4669C9.47616 13.119 9.54302 12.663 9.42192 12.248L8.04065 7.52623H11.9599L10.5787 12.248C10.4576 12.663 10.5232 13.119 10.7565 13.4682C10.9823 13.8062 11.3267 14 11.7026 14H18.8133C19.1879 14 19.5336 13.8062 19.7631 13.4669C19.9952 13.119 20.0621 12.663 19.9397 12.248ZM6.24437 6.36194C6.22671 6.33709 6.16617 6.23644 6.20527 6.101L7.6269 1.24505C7.66096 1.12949 7.75557 1.05121 7.86279 1.05121H12.1315C12.2387 1.05121 12.3333 1.12949 12.3674 1.24505L13.7877 6.101C13.8268 6.23644 13.7663 6.33709 13.7474 6.36567C13.702 6.43525 13.6313 6.47502 13.5518 6.47502H13.123H6.87635H6.44242C6.36169 6.47377 6.29231 6.43401 6.24437 6.36194ZM7.11098 7.72007L8.53135 12.576C8.57172 12.7102 8.50991 12.8121 8.49098 12.8407C8.44557 12.9103 8.37493 12.95 8.29546 12.95H1.18351C1.10404 12.95 1.0334 12.9103 0.985465 12.8382C0.962759 12.8059 0.908518 12.709 0.946361 12.5773L2.36799 7.72131C2.40205 7.60575 2.49666 7.52747 2.60388 7.52747H6.44116H6.87257C6.98105 7.52623 7.07692 7.60327 7.11098 7.72007ZM19.0088 12.8394C18.9634 12.909 18.8928 12.9488 18.8133 12.9488H11.7013C11.6219 12.9488 11.5512 12.909 11.5033 12.837C11.4806 12.8034 11.4263 12.7077 11.4642 12.576L12.8858 7.72007C12.9199 7.60451 13.0145 7.52623 13.1217 7.52623H13.5518H17.3904C17.4976 7.52623 17.5922 7.60451 17.6263 7.72007L19.0466 12.576C19.0895 12.7102 19.029 12.8121 19.0088 12.8394Z"
+              ></path>
+            </svg>
+            <button
+              class="btn btn-none border-0 text-light dropdown-toggle px-0"
+              style="font-size: 12px"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Metal Rates
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="navBar pb-4">
+        <nav class="navbar navbar-expand-lg navbar-light pb-0">
+          <div
+            class="container-fluid justify-content-start justify-content-lg-evenly"
+          >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="logo d-block w-75 w-lg-25 mb-3">
+              <a class="navbar-brand ms-4" href="#"
+                ><img
+                  class="img-fluid"
+                  style="width: 70px"
+                  src="/png_media/png_logo_1727074242.svg"
+                  alt=""
+              /></a>
+            </div>
+
+            <form class="d-flex align-items-center" style="flex-grow: 2">
+              <input
+                class="form-control me-2 rounded-pill"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-secondary rounded-pill"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+
+            <div
+              class="collapse navbar-collapse justify-content-end flex-grow-1"
+              id="navbarTogglerDemo01"
+            >
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item py-2 me-4 d-flex">
+                  <figure class="mb-0 d-flex">
+                    <img
+                      style="width: 15px"
+                      src="/png_media/account.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <a
+                    class="nav-link text-dark px-2"
+                    style="font-size: 14px"
+                    aria-current="page"
+                    href="#"
+                    >Account</a
+                  >
+                </li>
+                <li class="nav-item py-2 d-flex me-4">
+                  <figure class="mb-0 d-flex">
+                    <img
+                      style="width: 15px"
+                      src="/png_media/wishlist.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <a
+                    class="nav-link text-dark px-2"
+                    style="font-size: 14px"
+                    aria-current="page"
+                    href="#"
+                    >Wishlist</a
+                  >
+                </li>
+                <li class="nav-item py-2 d-flex me-4">
+                  <figure class="mb-0 d-flex">
+                    <img style="width: 15px" src="/png_media/cart.svg" alt="" />
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="bottomNav" style="margin-left: 130px">
+          <nav class="nav d-none d-lg-flex">
+            <a class="nav-link text-dark" aria-current="page" href="#"
+              >All Jewellery</a
+            >
+            <a class="nav-link text-dark" href="#">Diamond</a>
+            <a class="nav-link text-dark" href="#">Gold</a>
+            <a class="nav-link text-dark" href="#">Bullions</a>
+            <a class="nav-link text-dark" href="#">Collections</a>
+            <a class="nav-link text-dark" href="#">Investors</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- types of jewels section  -->
+    <section class="mt-4 d-lg-none">
+      <div>
+        <ul class="nav justify-content-evenly">
+          <li class="nav-item me-4">
+            <figure class="m-0 d-flex justify-content-center">
+              <img
+                class="img-fluid"
+                style="width: 70px"
+                src="/png_media/diamond.webp"
+                alt=""
+              />
+            </figure>
+            <a
+              class="nav-link text-dark"
+              style="font-size: 12px"
+              aria-current="page"
+              href="#"
+              >Diamond</a
+            >
+          </li>
+
+          <li class="nav-item me-4">
+            <figure class="m-0 d-flex justify-content-center">
+              <img
+                class="img-fluid"
+                style="width: 70px"
+                src="/png_media/gold.webp"
+                alt=""
+              />
+            </figure>
+            <a
+              class="nav-link text-dark"
+              style="font-size: 12px"
+              aria-current="page"
+              href="#"
+              >Gold</a
+            >
+          </li>
+
+          <li class="nav-item me-4">
+            <figure class="m-0 d-flex justify-content-center">
+              <img
+                class="img-fluid"
+                style="width: 70px"
+                src="/png_media/silver.webp"
+                alt=""
+              />
+            </figure>
+            <a
+              class="nav-link text-dark"
+              style="font-size: 12px"
+              aria-current="page"
+              href="#"
+              >Silver</a
+            >
+          </li>
+
+          <li class="nav-item me-4">
+            <figure class="m-0 d-flex justify-content-center">
+              <img
+                class="img-fluid"
+                style="width: 70px"
+                src="/png_media/bulllions.webp"
+                alt=""
+              />
+            </figure>
+            <a
+              class="nav-link text-dark"
+              style="font-size: 12px"
+              aria-current="page"
+              href="#"
+              >Bullions</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- types of jewels section end -->
+
+    <!-- Corousel  -->
+    <section class="">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/png_media/tushiwebjpg__1679995658636046068.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/png_media/imgslider2.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/png_media/imgslider3.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Corousel end -->
+
+    <!-- new ins section -->
+    <section class="pb-2">
+      <div class="heading mt-4">
+        <ul class="nav justify-content-center">
+          <li class="nav-item border-end border-dark">
+            <div class="container d-flex justify-content-center">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h2 class="position-relative fw-light pb-2 mb-2">
+                    New Ins
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="container d-flex justify-content-center">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h2 class="position-relative fw-light pb-2 mb-2">
+                    BestSellers
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <p class="text-center">Freshen up you look!</p>
+      </div>
+
+      <!-- owl corousel -->
+      <div class="coroousel">
+        <div class="owl-carousel owl-theme">
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img1.webp" alt="" />
+
+            <div class="prices d-flex ps-2">
+              <p class="m-0 me-2" style="text-align: justify">
+                &#8377;1,27,893
+              </p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;1,30,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">
+                Peacock Plume Yellow Gold Thushi Necklace For Woman
+              </p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img2.webp" alt="" />
+
+            <div class="prices d-flex ps-2">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;27,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;30,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Swami Smarth Yellow Gold Religious Pendant</p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img3.webp" alt="" />
+
+            <div class="prices d-flex ps-2">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;12,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;13,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">
+                Rosy Gokak Yellow Gold Thushi Necklace For Woman
+              </p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img4.webp" alt="" />
+
+            <div class="prices d-flex ps-2">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;25,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;26,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Maharashtrian Himali Gold Nath for woman</p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img4.webp" alt="" />
+
+            <div class="prices d-flex ps-3">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;25,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;26,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Maharashtrian Himali Gold Nath for woman</p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img4.webp" alt="" />
+
+            <div class="prices d-flex ps-3">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;25,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;26,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Maharashtrian Himali Gold Nath for woman</p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img4.webp" alt="" />
+
+            <div class="prices d-flex ps-3">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;25,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;26,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Maharashtrian Himali Gold Nath for woman</p>
+            </div>
+          </div>
+          <!-- card  end-->
+
+          <!-- card  -->
+          <div class="item ms-3 shadow bg-body rounded">
+            <img src="/png_media/img4.webp" alt="" />
+
+            <div class="prices d-flex ps-3">
+              <p class="m-0 me-2" style="text-align: justify">&#8377;25,893</p>
+              <p
+                class="text-secondary"
+                style="text-align: justify; text-decoration: line-through"
+              >
+                &#8377;26,893
+              </p>
+            </div>
+
+            <div class="info ps-2">
+              <p class="pb-1">Maharashtrian Himali Gold Nath for woman</p>
+            </div>
+          </div>
+          <!-- card  end-->
+        </div>
+      </div>
+
+      <!-- LINE -->
+      <div class="py-5 lg:py-11">
+        <div
+          class="ring-separator d-flex justify-content-center relative"
+          style="
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <!-- Simulate 'before' line -->
+          <div
+            style="
+              position: absolute;
+              top: 50%;
+              left: 0;
+              width: 100%;
+              height: 1px;
+              background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+              transform: translateY(-50%);
+            "
+          ></div>
+          <div
+            class="bg-white inline-flex relative"
+            style="
+              background: white;
+              position: relative;
+              z-index: 1;
+              display: inline-flex;
+            "
+          >
+            <svg
+              fill="none"
+              height="27"
+              viewBox="0 0 40 27"
+              width="40"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-[30px] h-5 md:w-10 md:h-[27px]"
+            >
+              <path
+                d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+                fill="url(#paint0_linear_2869_1660.07737872638)"
+              ></path>
+              <defs>
+                <linearGradient
+                  gradientUnits="userSpaceOnUse"
+                  id="paint0_linear_2869_1660.07737872638"
+                  x1="19.9998"
+                  x2="19.9998"
+                  y1="27.0001"
+                  y2="5.79359e-05"
+                >
+                  <stop stop-color="#DFAE26"></stop>
+                  <stop offset="0.2251" stop-color="#925924"></stop>
+                  <stop offset="0.8159" stop-color="#FBE284"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- LINE END-->
+    </section>
+    <!-- new ins section end -->
+
+    <!-- bestseller section-->
+    <section>
+      <div class="image row m-0 m-2">
+        <div class="col-12 col-lg-4">
+          <div class="row m-0 mb-sm-3">
+            <div class="cover2 col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover2 img-fluid"
+                  src="/png_media/cover2.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="cover1Div col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover1 img-fluid"
+                  src="/png_media/cover1.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="row m-0 mb-sm-3">
+            <div class="cover1Div col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover1 img-fluid"
+                  src="/png_media/cover5.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="cover2 col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover2 img-fluid"
+                  src="/png_media/cover4.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="row m-0 mb-sm-3">
+            <div class="cover2 col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover2 img-fluid"
+                  src="/png_media/cover6.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="cover1Div col-12 col-sm-6 col-lg-12">
+              <figure class="d-flex justify-content-center">
+                <img
+                  class="cover1 img-fluid"
+                  src="/png_media/cover7.webp"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-secondary text-dark px-5">
+          EXPLORE MORE
+        </button>
+      </div>
+
+      <!-- Line -->
+      <div class="py-5 lg:py-11">
+        <div
+          class="ring-separator d-flex justify-content-center relative"
+          style="
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <!-- Simulate 'before' line -->
+          <div
+            style="
+              position: absolute;
+              top: 50%;
+              left: 0;
+              width: 100%;
+              height: 1px;
+              background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+              transform: translateY(-50%);
+            "
+          ></div>
+          <div
+            class="bg-white inline-flex relative"
+            style="
+              background: white;
+              position: relative;
+              z-index: 1;
+              display: inline-flex;
+            "
+          >
+            <svg
+              fill="none"
+              height="27"
+              viewBox="0 0 40 27"
+              width="40"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-[30px] h-5 md:w-10 md:h-[27px]"
+            >
+              <path
+                d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+                fill="url(#paint0_linear_2869_1660.07737872638)"
+              ></path>
+              <defs>
+                <linearGradient
+                  gradientUnits="userSpaceOnUse"
+                  id="paint0_linear_2869_1660.07737872638"
+                  x1="19.9998"
+                  x2="19.9998"
+                  y1="27.0001"
+                  y2="5.79359e-05"
+                >
+                  <stop stop-color="#DFAE26"></stop>
+                  <stop offset="0.2251" stop-color="#925924"></stop>
+                  <stop offset="0.8159" stop-color="#FBE284"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- Line end -->
+    </section>
+    <!-- bestseller section end-->
+
+    <!-- category section -->
+    <section class="d-none d-lg-block">
+      <div class="container d-flex justify-content-center">
+        <div class="row m-0">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 class="position-relative fw-light pb-2 mb-2">
+              Shop by Category
+              <span
+                class="position-absolute bottom-0 start-0"
+                style="height: 2px; background-color: #000; width: 30px"
+              ></span>
+            </h2>
+          </div>
+          <p class="text-center">
+            A one-stop shop for all of your jewellery needs!
+          </p>
+        </div>
+      </div>
+
+      <div class="cards row m-0 p-4">
+        <div
+          class="col-3 d-flex flex-column justify-content-center align-items-center"
+        >
+          <figure>
+            <img class="img-fluid" src="/png_media/diamond.webp" alt="" />
+          </figure>
+
+          <div class="info text-center">
+            <p>Diamond</p>
+            <p>For the most awaited moment!</p>
+          </div>
+
+          <div class="btn d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark px-5 rounded-0"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="col-3 d-flex flex-column justify-content-center align-items-center"
+        >
+          <figure>
+            <img class="img-fluid" src="/png_media/gold.webp" alt="" />
+          </figure>
+
+          <div class="info text-center">
+            <p>Gold</p>
+            <p>For the beauty and the bliss!</p>
+          </div>
+
+          <div class="btn d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark px-5 rounded-0"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="col-3 d-flex flex-column justify-content-center align-items-center"
+        >
+          <figure>
+            <img class="img-fluid" src="/png_media/bulllions.webp" alt="" />
+          </figure>
+
+          <div class="info text-center">
+            <p>Bullions</p>
+            <p>For auspicious occasions!</p>
+          </div>
+
+          <div class="btn d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark px-5 rounded-0"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="col-3 d-flex flex-column justify-content-center align-items-center"
+        >
+          <figure>
+            <img class="img-fluid" src="/png_media/silver.webp" alt="" />
+          </figure>
+
+          <div class="info text-center">
+            <p>Silver</p>
+            <p>For everyday elegance!</p>
+          </div>
+
+          <div class="btn d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark px-5 rounded-0"
+            >
+              DISCOVER MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- category section end -->
+    <!-- Line -->
+    <div class="d-none d-lg-block py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+
+    <!-- promises section -->
+    <section style="background-color: #4d2753">
+      <div class="heading text-center text-light p-4">
+        <p class="m-0 fs-2">PNG Promises</p>
+        <p>Incredible rationales to shop with us!</p>
+      </div>
+
+      <div class="images d-flex justify-content-evenly flex-wrap">
+        <figure
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img src="/png_media/prom1.svg" alt="" />
+          <p class="fw-bold w-75 text-center" style="color: #dfae26">
+            INSURED FREE SHIPPING
+          </p>
+        </figure>
+        <figure
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img src="/png_media/prom2.svg" alt="" />
+          <p class="fw-bold w-75 text-center" style="color: #dfae26">
+            PURITY GUARANTEE
+          </p>
+        </figure>
+        <figure
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img src="/png_media/prom4.svg" alt="" />
+          <p class="fw-bold w-75 text-center" style="color: #dfae26">
+            14 DAYS RETURNS
+          </p>
+        </figure>
+        <figure
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img src="/png_media/prom3.svg" alt="" />
+          <p class="fw-bold w-75 text-center" style="color: #dfae26">
+            SECURITY GUARANTEE
+          </p>
+        </figure>
+      </div>
+    </section>
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+    <!-- promises section end -->
+
+    <!-- crafted video  -->
+    <section class="craftSection">
+      <div class="crafted container-fluid container-lg">
+        <video
+          width="100%"
+          height="100%"
+          loop=""
+          autoplay=""
+          class="w-full h-full object-cover object-right"
+        >
+          <source
+            src="https://d1put4x3vjlh9s.cloudfront.net/public/uploads/widgets/video_1682089105_1691241930.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div class="label justify-content-center p-4 d-flex">
+        <p class="P2 m-0 fs-1 me-2">CRAFTED</p>
+        <p class="m-0 fs-1">ELEGANCE</p>
+      </div>
+    </section>
+    <!-- crafte video end -->
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+
+    <!--customize section -->
+    <section class="customize">
+      <div class="videoCust container-fluid d-flex justify-content-center p-0">
+        <video
+          style="width: 100%"
+          class="object-cover w-full h-[250px] sm:h-[450px] lg:h-[700px] scale-x-[1.009]"
+          playsinline=""
+          autoplay=""
+          loop=""
+          muted=""
+          src="https://d1put4x3vjlh9s.cloudfront.net/public/uploads/widgets/customizevideo_1682338275_1685535434.mp4"
+        ></video>
+      </div>
+
+      <div
+        class="headingCust d-flex flex-column justify-content-center align-items-center"
+      >
+        <p class="headingCustPara fs-1" style="font-weight: 400">
+          Customize Jewellery
+        </p>
+        <p class="fs-5">Add a personal touch to your style.</p>
+
+        <div class="btnCust d-flex justify-content-center">
+          <button
+            type="button"
+            class="btn btn-outline-secondary text-dark px-5 rounded-0"
+          >
+            CUSTOMIZE JEWELLERY
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--customize section end -->
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+
+    <!-- about us -->
+    <section>
+      <div class="container d-flex justify-content-center">
+        <div class="row m-0">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 class="position-relative fw-light pb-2 mb-2">
+              PNG Jewellers
+              <span
+                class="position-absolute bottom-0 start-0"
+                style="height: 2px; background-color: #000; width: 30px"
+              ></span>
+            </h2>
+          </div>
+          <p class="text-center">A paradise of precious jewels</p>
+        </div>
+      </div>
+
+      <div class="conatiner row m-0 py-5" style="background-color: #4d2753">
+        <figure
+          class="p-2 d-md-flex justify-content-md-center col-12 col-md-6 order-md-last"
+        >
+          <img class="img-fluid" src="/png_media/aboutus.png" alt="" />
+        </figure>
+
+        <div
+          class="aboutDiv col-12 col-md-6 info p-2 text-light d-flex flex-column justify-content-md-center"
+        >
+          <p class="fs-4">Beginnings - Cornerstone of each story!</p>
+          <p class="fs-5">
+            The story of PNG is indeed an epic scripted by six generations at
+            the forefront of exceptional traditional designs and unparalleled
+            craftsmanship. Discover how PNG Jewellers Pvt. Ltd, founded in 1832,
+            went from a little jewellery shop in Sangli to a renowned design
+            brand in the jewellery industry.
+          </p>
+
+          <div class="btn d-flex px-0">
+            <button type="button" class="btn btn-light rounded-0">
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+    <!-- about us end -->
+
+    <!--store  -->
+    <section>
+      <div class="container d-flex justify-content-center">
+        <div class="row m-0">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 class="position-relative fw-light pb-2 mb-2">
+              Store Locator
+              <span
+                class="position-absolute bottom-0 start-0"
+                style="height: 2px; background-color: #000; width: 30px"
+              ></span>
+            </h2>
+          </div>
+          <p class="text-center">Find a Jewellery shop near you.</p>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-12 col-md-6 p-0">
+          <img class="img-fluid" src="/png_media/store.webp" alt="" />
+        </div>
+
+        <div
+          class="store col-12 col-md-6 d-flex flex-column justify-content-center align-items-center"
+          style="background-color: rgb(250 246 238)"
+        >
+          <p class="fs-2 fw-light">Come and Say Hi</p>
+          <p class="fs-5 fw-light text-center text-md-start">
+            Explore iconic traditional jewellery, gold and diamond engagement
+            rings, silver classics, elegant accessories, and precious gifts for
+            any occasion at our PNG Jewellers stores across the globe.
+          </p>
+
+          <div class="btn d-flex">
+            <button type="button" class="btn btn-light rounded-0 border-dark">
+              FIND A STORE LOCATION
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+    <!--store end -->
+
+    <!-- celebrity section  -->
+    <section>
+      <div class="container d-flex justify-content-center">
+        <div class="row m-0">
+          <div class="col-12 d-flex justify-content-center">
+            <h2 class="position-relative fw-light pb-2 mb-2">
+              Celebrity Corner
+              <span
+                class="position-absolute bottom-0 start-0"
+                style="height: 2px; background-color: #000; width: 30px"
+              ></span>
+            </h2>
+          </div>
+          <p class="text-center">Explore what your favourite stars adore!</p>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div
+          class="col-12 col-md-6 d-none d-lg-flex flex-column justify-content-center"
+          style="background-color: rgb(250 246 238)"
+        >
+          <p class="fs-2 fw-light">Styled by PNG</p>
+          <p class="fs-5 fw-light text-center text-md-start">
+            The brand builds a family of long-term ambassadors and celebrities
+            passionate about jewellery. Discover all PNG Jewellers brand
+            ambassadors and celebrities who have launched campaigns and
+            collections and heart fully endorsed the brand.
+          </p>
+        </div>
+        <div class="col-12 col-md-12 p-lg-0">
+          <div class="row m-0">
+            <div class="col-6 p-0">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="2000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/png_media/CC1.webp"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/png_media/CC2.webp"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/png_media/CC3.webp"
+                      class="d-block w-100 img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 p-0">
+              <div class="row m-0">
+                <div class="col-12 p-0">
+                  <div
+                    id="carouselExampleControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                    data-bs-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="/png_media/CC4.webp"
+                          class="d-block w-100 img-fluid"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/png_media/CC5.webp"
+                          class="d-block w-100 img-fluid"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 p-0">
+                  <div
+                    id="carouselExampleControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                    data-bs-interval="2000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="/png_media/CC6.webp"
+                          class="d-block w-100 img-fluid"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="/png_media/CC7.webp"
+                          class="d-block w-100 img-fluid"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+    <!-- celebrity section end -->
+
+    <!-- new from png -->
+    <section
+      style="
+        background-image: linear-gradient(
+          to left,
+          #9f6fd6 40%,
+          rgb(239 210 121 / 60%) 70%
+        );
+
+        padding: 50px 0;
+      "
+    >
+      <div
+        class="store col-12 d-flex flex-column justify-content-center align-items-center"
+      >
+        <p class="fs-5">Latest from PNG Jewellers</p>
+        <p class="text-center text-md-start">
+          Be the first to know about exciting new designs, special events, store
+          openings and much more.
+        </p>
+      </div>
+
+      <div class="form d-flex justify-content-center p-2">
+        <form class="d-flex justify-content-center align-items-center">
+          <input
+            class="form-control rounded-0"
+            type="email"
+            placeholder="Enter Your Email"
+            aria-label="Search"
+          />
+          <button
+            class="btn btn-outline-light text-dark rounded-0"
+            type="submit"
+            style="width: 150px"
+          >
+            Sign Up
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Line -->
+    <div class="py-5 lg:py-11">
+      <div
+        class="ring-separator d-flex justify-content-center relative"
+        style="
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <!-- Simulate 'before' line -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+            transform: translateY(-50%);
+          "
+        ></div>
+        <div
+          class="bg-white inline-flex relative"
+          style="
+            background: white;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+          "
+        >
+          <svg
+            fill="none"
+            height="27"
+            viewBox="0 0 40 27"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-[30px] h-5 md:w-10 md:h-[27px]"
+          >
+            <path
+              d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+              fill="url(#paint0_linear_2869_1660.07737872638)"
+            ></path>
+            <defs>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear_2869_1660.07737872638"
+                x1="19.9998"
+                x2="19.9998"
+                y1="27.0001"
+                y2="5.79359e-05"
+              >
+                <stop stop-color="#DFAE26"></stop>
+                <stop offset="0.2251" stop-color="#925924"></stop>
+                <stop offset="0.8159" stop-color="#FBE284"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- Line end -->
+    <!-- new from png end -->
+
+    <!-- FOOTER -->
+    <footer class="p-4" style="background-color: rgb(250 246 238)">
+      <div class="row">
+        <div class="col-6 col-md-3 mt-3">
+          <nav class="nav flex-column">
+            <div class="container px-1 d-flex">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h6 class="position-relative pb-2 mb-2">
+                    Know Us
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <a class="nav-link text-dark" aria-current="page" href="#"
+              >Our Story</a
+            >
+            <a class="nav-link text-dark" href="#">Video</a>
+            <a class="nav-link text-dark" href="#">Blogs</a>
+            <a class="nav-link text-dark" href="#">Careers</a>
+          </nav>
+        </div>
+
+        <div class="col-6 col-md-3 mt-3">
+          <nav class="nav flex-column">
+            <div class="container px-1 d-flex">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h6 class="position-relative pb-2 mb-2">
+                    PNG Promises
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <a class="nav-link text-dark" aria-current="page" href="#"
+              >14-Day Returns</a
+            >
+            <a class="nav-link text-dark" href="#">Free Shipping</a>
+            <a class="nav-link text-dark" href="#">Certifications</a>
+            <a class="nav-link text-dark" href="#">Liftetime Buyback</a>
+            <a class="nav-link text-dark" href="#">Liftetime Exchange</a>
+            <a class="nav-link text-dark" href="#">FPP/DPP</a>
+          </nav>
+        </div>
+
+        <div class="col-6 col-md-3 mt-3">
+          <nav class="nav flex-column">
+            <div class="container px-1 d-flex">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h6 class="position-relative pb-2 mb-2">
+                    Customer Delight
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <a class="nav-link text-dark" aria-current="page" href="#">FAQ</a>
+            <a class="nav-link text-dark" href="#">Policies</a>
+            <a class="nav-link text-dark" href="#">Book Appointment</a>
+            <a class="nav-link text-dark" href="#">Contest & Programs</a>
+            <a class="nav-link text-dark" href="#">PNG Franchise</a>
+          </nav>
+        </div>
+
+        <div class="col-6 col-md-3 mt-3">
+          <nav class="nav flex-column">
+            <div class="container m-0 px-1 d-flex">
+              <div class="row m-0">
+                <div class="col-12 d-flex justify-content-center">
+                  <h6 class="position-relative pb-2 mb-2">
+                    Get in Touch
+                    <span
+                      class="position-absolute bottom-0 start-0"
+                      style="height: 2px; background-color: #000; width: 30px"
+                    ></span>
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <a class="nav-link text-dark" aria-current="page" href="#"
+              >png.com</a
+            >
+            <a class="nav-link text-dark" href="#">+918806907567</a>
+            <a class="nav-link text-dark" href="#">(10 am - 6 pm)</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="payments d-flex justify-content-between">
+        <div class="pay">
+          <div class="px-1 d-flex">
+            <div class="row m-0">
+              <div class="col-12 d-flex justify-content-center">
+                <h6 class="position-relative pb-2 mb-2">
+                  We Accept
+                  <span
+                    class="position-absolute bottom-0 start-0"
+                    style="height: 2px; background-color: #000; width: 30px"
+                  ></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <figure>
+            <img class="img-fluid p-2" src="/png_media/visa.svg" alt="" />
+            <img class="img-fluid p-2" src="/png_media/american.svg" alt="" />
+
+            <img class="img-fluid p-2" src="/png_media/maestro.svg" alt="" />
+          </figure>
+        </div>
+
+        <div class="connect">
+          <div class="px-1 d-flex">
+            <div class="row m-0">
+              <div class="col-12 d-flex justify-content-center">
+                <h6 class="position-relative pb-2 mb-2">
+                  Connect
+                  <span
+                    class="position-absolute bottom-0 start-0"
+                    style="height: 2px; background-color: #000; width: 30px"
+                  ></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <figure>
+            <img class="img-fluid p-2" src="/png_media/wa.png" alt="" />
+            <img class="img-fluid p-2" src="/png_media/fb.png" alt="" />
+            <img class="img-fluid p-2" src="/png_media/insta.webp" alt="" />
+            <img class="img-fluid p-2" src="/png_media/twitter.png" alt="" />
+            <img class="img-fluid p-2" src="/png_media/yt.png" alt="" />
+          </figure>
+        </div>
+      </div>
+      <!-- Line -->
+      <div class="py-5 lg:py-11">
+        <div
+          class="ring-separator d-flex justify-content-center relative"
+          style="
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <!-- Simulate 'before' line -->
+          <div
+            style="
+              position: absolute;
+              top: 50%;
+              left: 0;
+              width: 100%;
+              height: 1px;
+              background: linear-gradient(90deg, #dfae26, #925924, #fbe284);
+              transform: translateY(-50%);
+            "
+          ></div>
+          <div
+            class="bg-white inline-flex relative"
+            style="
+              background: white;
+              position: relative;
+              z-index: 1;
+              display: inline-flex;
+            "
+          >
+            <svg
+              fill="none"
+              height="27"
+              viewBox="0 0 40 27"
+              width="40"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-[30px] h-5 md:w-10 md:h-[27px]"
+            >
+              <path
+                d="M26.8148 0C24.3176 0 21.9913 0.722302 19.9998 1.95816C18.0106 0.722302 15.6833 0 13.1862 0C5.90396 0 0 6.04334 0 13.4994C0 20.9547 5.90396 27 13.1862 27C15.6833 27 18.0106 26.2745 19.9998 25.0399C21.9916 26.2745 24.3176 27 26.8148 27C34.0967 27 40 20.9547 40 13.4994C40 6.04366 34.0967 0 26.8148 0ZM13.1862 25.4596C6.73416 25.4596 1.50296 20.1045 1.50296 13.4997C1.50296 6.89363 6.73416 1.53749 13.1862 1.53749C15.1552 1.53749 17.007 2.04275 18.635 2.9224C15.5895 5.3954 13.6289 9.21055 13.6289 13.4997C13.6289 17.7885 15.5879 21.6027 18.635 24.076C17.0067 24.9566 15.1552 25.4596 13.1862 25.4596ZM19.9998 3.79664C22.9447 5.97025 24.8682 9.50069 24.8682 13.4994C24.8682 17.498 22.9443 21.0291 19.9998 23.2005C17.056 21.0291 15.1328 17.4977 15.1328 13.4994C15.1325 9.50069 17.056 5.96993 19.9998 3.79664ZM26.8148 25.4596C24.846 25.4596 22.9936 24.9566 21.3656 24.0757C24.4121 21.6027 26.3718 17.7882 26.3718 13.4994C26.3718 9.21023 24.4121 5.39508 21.3656 2.92208C22.9936 2.04243 24.8454 1.53717 26.8148 1.53717C33.2671 1.53717 38.4964 6.89331 38.4964 13.4994C38.4964 20.1041 33.2671 25.4596 26.8148 25.4596Z"
+                fill="url(#paint0_linear_2869_1660.07737872638)"
+              ></path>
+              <defs>
+                <linearGradient
+                  gradientUnits="userSpaceOnUse"
+                  id="paint0_linear_2869_1660.07737872638"
+                  x1="19.9998"
+                  x2="19.9998"
+                  y1="27.0001"
+                  y2="5.79359e-05"
+                >
+                  <stop stop-color="#DFAE26"></stop>
+                  <stop offset="0.2251" stop-color="#925924"></stop>
+                  <stop offset="0.8159" stop-color="#FBE284"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- Line end -->
+
+      <div class="copyright text-center">
+        <span class="p-0 m-0">© 2025 PNG Jewellery. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+
+      $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+          loop: true, // Enables continuous loop mode
+          margin: 10, // Sets the margin between items
+          navigation: true, // Displays next/prev buttons
+          responsive: {
+            0: {
+              items: 1, // 1 item between 0px and 599px
+            },
+            600: {
+              items: 2, // 2 items between 600px and 999px
+            },
+            1000: {
+              items: 3, // 3 items for 1000px and above
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
